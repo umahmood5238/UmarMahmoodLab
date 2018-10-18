@@ -16,8 +16,8 @@ public class RPentagon extends Shape
     }
 
     @Override
-    public double getPeriemeter()
+    public double getPerimeter()
     {
-        
+        return side*5;
     }
 }

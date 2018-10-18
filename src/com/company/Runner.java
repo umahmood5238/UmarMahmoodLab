@@ -4,9 +4,9 @@ public class Runner {
     public static void main(String[] args)
     {
         Shape shape1 = new Rectangle(10, 5);
-        Shape shape2 = new ETriangle(10, 5);
-        Shape shape3 = new Circle(10, 5);
-        Shape shape4 = new RPentagon(10, 5);
+        Shape shape2 = new ETriangle(5);
+        Shape shape3 = new Circle(10);
+        Shape shape4 = new RPentagon( 5);
 
         System.out.println(shape4);
         System.out.println("My perimeter is: " + shape4.getPerimeter());
